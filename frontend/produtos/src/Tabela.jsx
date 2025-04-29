@@ -16,7 +16,7 @@ function Tabela({ vetor }) {
             <td>{obj.nome}</td>
             <td>{obj.marca}</td>
             <td>
-              <button className="btn btn-success"></button>
+              <button className="btn btn-success">Selecionar</button>
             </td>
           </tr>
         ))}

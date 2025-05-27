@@ -1,6 +1,8 @@
 package br.com.projetocrud.produtos.modelo;
 
+
 import org.springframework.stereotype.Component;
+
 import lombok.Getter;
 import lombok.Setter;
 
@@ -8,7 +10,5 @@ import lombok.Setter;
 @Setter
 @Getter
 public class RespostaModelo {
-
   private String resposta;
-
 }

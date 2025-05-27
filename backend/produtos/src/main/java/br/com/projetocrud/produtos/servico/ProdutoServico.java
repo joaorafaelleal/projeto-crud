@@ -1,11 +1,8 @@
 package br.com.projetocrud.produtos.servico;
 
 import org.springframework.beans.factory.annotation.Autowired;
-
 import org.springframework.http.HttpStatus;
-
 import org.springframework.http.ResponseEntity;
-
 import org.springframework.stereotype.Service;
 
 import br.com.projetocrud.produtos.modelo.ProdutoModelo;
@@ -14,8 +11,7 @@ import br.com.projetocrud.produtos.repositorio.ProdutoRepositorio;
 
 @Service
 public class ProdutoServico {
-
-  @Autowired
+@Autowired
   private ProdutoRepositorio pr;
 
   @Autowired
@@ -48,5 +44,5 @@ public class ProdutoServico {
     rm.setResposta("O produto foi removido com sucesso!");
     return new ResponseEntity<RespostaModelo>(rm, HttpStatus.OK);
   }
-
+  
 }

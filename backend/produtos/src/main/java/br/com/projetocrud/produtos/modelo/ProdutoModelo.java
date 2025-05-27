@@ -20,4 +20,5 @@ public class ProdutoModelo {
   private Long code;
   private String nome;
   private String marca;
+  
 }

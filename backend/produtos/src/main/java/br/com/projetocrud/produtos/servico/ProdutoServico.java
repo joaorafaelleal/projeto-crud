@@ -17,7 +17,6 @@ public class ProdutoServico {
   @Autowired
   private RespostaModelo rm;
 
-  // Listar produtos
   public Iterable<ProdutoModelo> listar() {
     return pr.findAll();
   }
